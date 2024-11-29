@@ -22,7 +22,7 @@ const Home=()=>{
 
     const fetchProducts=async()=>{
         try{
-            const url='http://localhost:8080/home/';
+            const url='https://deploy-website1-api.vercel.app/home/';
             const options={
                 headers:{
                     'Authorization':localStorage.getItem('token')
