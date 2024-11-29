@@ -37,7 +37,7 @@ const submitForm=async (e)=>{
         return handleError("name,email,password and phoneNummber required");
     }
     try{
-        const url="http://localhost:8080/auth/signup";
+        const url="https://deploy-website1-api.vercel.app/auth/signup";
         const response=await fetch(url,{
             method:"POST",
             headers:{
